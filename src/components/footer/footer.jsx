@@ -39,7 +39,7 @@ const Footer = () => {
         <a href="https://www.facebook.com/abdurashid.bozorov.58/">
           <FaFacebookF />
         </a>
-        <a href="https::/instagram.com">
+        <a href="http://Instagram.com/rasheedkh_">
           <FiInstagram />
         </a>
         <a href="https://twitter.com/iamrashiddev">

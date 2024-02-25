@@ -1,34 +1,34 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/avatar-image.png";
-// import IMG2 from "../../assets/portfolio2.jpg";
-// import IMG3 from "../../assets/portfolio3.jpg";
-// import IMG4 from "../../assets/portfolio4.jpg";
-// import IMG5 from "../../assets/portfolio5.png";
-// import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/camper.jpg";
+import IMG2 from "../../assets/design.jpg";
+import IMG3 from "../../assets/lms.jpg";
+import IMG4 from "../../assets/menu.jpg";
+import IMG5 from "../../assets/bitcoin.jpg";
+import IMG6 from "../../assets/Jobify.jpg";
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>Check out my projects</h5>
+      <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Camper for camping with responsive and backend server. Admin dashboard is available</h3>
 
           <div className="portfolio__item-cta">
             <div>
-              <a href="#" className="btn">
+              <a href="https://github.com/rasheedkh21/camping-client" className="btn">
                 Github
               </a>
             </div>
 
             <div>
-              <a href="#" className="btn btn-primary" target="_blank">
+              <a href="https://rasheedscamperclient.netlify.app/" className="btn btn-primary" target="_blank">
                 Live Demo
               </a>
             </div>
@@ -37,14 +37,14 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            {/* <img src={IMG2} alt="" /> */}
+            <img src={IMG2} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Design Fashion Landing page without responsive and backend server</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a href="https://github.com/rasheedkh21/Design-fashion-react" className="btn">
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a href="https://rasheedsdesign.netlify.app/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
@@ -52,14 +52,14 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            {/* <img src={IMG3} alt="" /> */}
+            <img src={IMG3} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>LMS system Landing page without responsive and backend server</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a href="https://github.com/rasheedkh21/LMS-Master-React" className="btn">
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a href="https://rasheedslms.netlify.app/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
@@ -67,14 +67,14 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            {/* <img src={IMG4} alt="" /> */}
+            <img src={IMG4} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Menu landing page made with Tailwind Css. Without responsive and backend server </h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a href="https://github.com/rasheedkh21/Manu-tailwind" className="btn">
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a href="https://rasheedsmenu.netlify.app/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
@@ -82,14 +82,14 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            {/* <img src={IMG5} alt="" /> */}
+            <img src={IMG5} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Crypto landing page made with Tailwind Css, React Js and Styled-components. Without responsive and backend server</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a href="https://github.com/rasheedkh21/Bitcoin-page-react-tailwind" className="btn">
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a href="https://rasheedscrypto.netlify.app/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
@@ -97,9 +97,9 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            {/* <img src={IMG6} alt="" /> */}
+            <img src={IMG6} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Platform Jobify for searching job with responsive. Admin dashboard is available with backend server</h3>
           <div className="portfolio__item-cta">
             <a href="#" className="btn">
               Github

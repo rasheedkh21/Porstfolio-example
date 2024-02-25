@@ -1,6 +1,7 @@
 import React from "react";
 // import "./testimonials.css";
-import AVTR1 from "../../assets/avatar-image.png";// import Swiper core and required modules
+import AVTR1 from "../../assets/testominal teacher.jpg";// import Swiper core and required modules
+import AVTR2 from "../../assets/avatar-image.png";// import Swiper core and required modules
 import Pegination from "swiper"
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,7 +18,7 @@ const data = [
 "Abdurashid is a boy who never stops on the way his dreams. As his teacher I beleive he can handle every problem that he face."
   },
   {
-    avatar: AVTR1,
+    avatar: AVTR2,
     name: "Ernest Achiever",
     review:
       "Lorem ipsum dolor sit amet consecteturex alias porro excepturi ad ratione aut,eveniet quidem est totam modi aperiam exercitationem inventore? Quod, animi."

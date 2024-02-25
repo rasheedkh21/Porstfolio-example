@@ -48,27 +48,39 @@ const Services = () => {
           <ul className="services__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> Front-End Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> Backend Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Responsive Web Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> eCommerce Development </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> Progressive Web Apps (PWAs) Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Single-Page Application (SPA) Development</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>API Development</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p> Database Development</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Web Application Security</p>
             </li>
           </ul>
         </article>
@@ -82,23 +94,23 @@ const Services = () => {
           <ul className="services__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Rules-Based Model</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Context Management..</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Powerful Pattern Matching</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Scalable Streaming Architecture.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Full SGML/XML.</p>
             </li>
           </ul>
         </article>
