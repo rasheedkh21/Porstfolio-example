@@ -17,24 +17,24 @@ const data = [
     review:
 "Abdurashid is a boy who never stops on the way his dreams. As his teacher I beleive he can handle every problem that he face."
   },
-  {
-    avatar: AVTR2,
-    name: "Ernest Achiever",
-    review:
-      "Lorem ipsum dolor sit amet consecteturex alias porro excepturi ad ratione aut,eveniet quidem est totam modi aperiam exercitationem inventore? Quod, animi."
-  },
-  {
-    avatar: AVTR1,
-    name: "Ernest Achiever",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at adipisci illo voluptatibus ex alias porro excepturi ad ratione aut,eveniet quidem est totam modi aperiam exercitationem inventore? Quod, animi."
-  },
-  {
-    avatar: AVTR1,
-    name: "Ernest Achiever",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at adipisci illo voluptatibus ex alias porro excepturi ad ratione aut,eveniet quidem est totam modi aperiam exercitationem inventore? Quod, animi."
-  }
+  // {
+  //   avatar: AVTR2,
+  //   name: "Ernest Achiever",
+  //   review:
+  //     "Lorem ipsum dolor sit amet consecteturex alias porro excepturi ad ratione aut,eveniet quidem est totam modi aperiam exercitationem inventore? Quod, animi."
+  // },
+  // {
+  //   avatar: AVTR1,
+  //   name: "Ernest Achiever",
+  //   review:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at adipisci illo voluptatibus ex alias porro excepturi ad ratione aut,eveniet quidem est totam modi aperiam exercitationem inventore? Quod, animi."
+  // },
+  // {
+  //   avatar: AVTR2,
+  //   name: "Ernest Achiever",
+  //   review:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at adipisci illo voluptatibus ex alias porro excepturi ad ratione aut,eveniet quidem est totam modi aperiam exercitationem inventore? Quod, animi."
+  // }
 ];
 
 const Testimonials = () => {
@@ -67,19 +67,6 @@ const Testimonials = () => {
           );
         })}
       </Swiper>
-
-      {/* <article className="testimonials">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="" />
-          </div>
-          <h5 className="client__name">Ernest Achiever</h5>
-          <small className="client_review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at
-            adipisci illo voluptatibus ex alias porro excepturi ad ratione aut,
-            eveniet quidem est totam modi aperiam exercitationem inventore?
-            Quod, animi.
-          </small>
-        </article> */}
     </section>
   );
 };

@@ -28,7 +28,7 @@ const Portfolio = () => {
             </div>
 
             <div>
-              <a href="https://rasheedscamperclient.netlify.app/" className="btn btn-primary" target="_blank">
+              <a href="https://rasheedscamperclient.netlify.app/home" className="btn btn-primary" target="_blank">
                 Live Demo
               </a>
             </div>
