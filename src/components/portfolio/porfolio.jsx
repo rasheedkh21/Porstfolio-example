@@ -6,6 +6,7 @@ import IMG3 from "../../assets/lms.jpg";
 import IMG4 from "../../assets/menu.jpg";
 import IMG5 from "../../assets/bitcoin.jpg";
 import IMG6 from "../../assets/Jobify.jpg";
+import IMG7 from "../../assets/camperadmin.jpg";
 
 const Portfolio = () => {
   return (
@@ -32,6 +33,21 @@ const Portfolio = () => {
                 Live Demo
               </a>
             </div>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="Admin camper" />
+          </div>
+          <h3>Platform Camper admin for adding car info with backend server. Responsive is not available</h3>
+          <div className="portfolio__item-cta">
+            <a href="hhttps://github.com/rasheedkh21/camping-admin-page" className="btn">
+              Github
+            </a>
+            <a href="https://camperadmin.netlify.app/home" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
           </div>
         </article>
 
@@ -97,18 +113,19 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
+            <img src={IMG6} alt="jobify img" />
           </div>
           <h3>Platform Jobify for searching job with responsive. Admin dashboard is available with backend server</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a href="https://github.com/rasheedkh21/job-client" className="btn">
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a href="https://rasheedsjobify.netlify.app/" className="btn btn-primary" target="_blank">
               Live Demo
             </a>
           </div>
         </article>
+
       </div>
     </section>
   );
